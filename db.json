@@ -1,6 +1,7 @@
 {
   "relacionXml": [
     {
+      "id": 0,
       "_id": {
         "$oid": "60413b27be4ee304fc24db97"
       },
@@ -201,42 +202,6 @@
           "IdCampoProveedor": 5,
           "NombreCampoXmlMadre": "ubicacion.nombreCiudad",
           "NombreCampoProveedor": "city",
-          "CampoProveedorEsPadre": false,
-          "IgnoreCDATA": false,
-          "LetraCapital": false,
-          "SinEtiqueta": false,
-          "ValorPorDefecto": "",
-          "ValorFijo": "",
-          "MaxLength": 0,
-          "Concat": "",
-          "Replaces": []
-        },
-        {
-          "_id": {
-            "$oid": "5cec9be0c1b25317c06a45d1"
-          },
-          "IdCampoXmlMadre": 16,
-          "IdCampoProveedor": 6,
-          "NombreCampoXmlMadre": "ubicacion.nombreZonaCiudad",
-          "NombreCampoProveedor": "city_area",
-          "CampoProveedorEsPadre": false,
-          "IgnoreCDATA": false,
-          "LetraCapital": false,
-          "SinEtiqueta": false,
-          "ValorPorDefecto": "",
-          "ValorFijo": "",
-          "MaxLength": 0,
-          "Concat": "",
-          "Replaces": []
-        },
-        {
-          "_id": {
-            "$oid": "5cec9be0c1b25317c06a45d1"
-          },
-          "IdCampoXmlMadre": 12,
-          "IdCampoProveedor": 4,
-          "NombreCampoXmlMadre": "ubicacion.nombreProvincia",
-          "NombreCampoProveedor": "region",
           "CampoProveedorEsPadre": false,
           "IgnoreCDATA": false,
           "LetraCapital": false,
