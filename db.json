@@ -1,0 +1,469 @@
+{
+  "relacionXml": [
+    {
+      "_id": {
+        "$oid": "60413b27be4ee304fc24db97"
+      },
+      "Identificador": "60413b27be4ee304fc24db97",
+      "Nombre": "I24_Mexico_Trovit_CurrencyMXN",
+      "Proveedor": {
+        "Nombre": "Trovit_MX",
+        "Identificador": "5cd575f70b2d5a146824f597"
+      },
+      "Pais": {
+        "Nombre": "Mexico",
+        "Abrev": "Mx",
+        "Color": "btn-info",
+        "Orden": 4,
+        "Identificador": "",
+        "XmlUrl": "https://feeds.navent.com/rela/NavplatRE_18.xml",
+        "CronExpression": "40 15 * * *"
+      },
+      "ProveedorId": "5cd575f70b2d5a146824f597",
+      "PaisId": "Mx",
+      "Campos": [
+        {
+          "_id": {
+            "$oid": "5cec9be0c1b25317c06a45d1"
+          },
+          "IdCampoXmlMadre": 0,
+          "IdCampoProveedor": 28,
+          "NombreCampoXmlMadre": "",
+          "NombreCampoProveedor": "trovit",
+          "CampoProveedorEsPadre": true,
+          "IgnoreCDATA": false,
+          "LetraCapital": false,
+          "SinEtiqueta": false,
+          "ValorPorDefecto": "",
+          "ValorFijo": "",
+          "MaxLength": 0,
+          "Concat": "",
+          "Replaces": []
+        },
+        {
+          "_id": {
+            "$oid": "5cec9be0c1b25317c06a45d1"
+          },
+          "IdCampoXmlMadre": 0,
+          "IdCampoProveedor": 2,
+          "NombreCampoXmlMadre": "",
+          "NombreCampoProveedor": "ad",
+          "CampoProveedorEsPadre": true,
+          "IgnoreCDATA": false,
+          "LetraCapital": false,
+          "SinEtiqueta": false,
+          "ValorPorDefecto": "",
+          "ValorFijo": "",
+          "MaxLength": 0,
+          "Concat": "",
+          "Replaces": []
+        },
+        {
+          "_id": {
+            "$oid": "5cec9be0c1b25317c06a45d1"
+          },
+          "IdCampoXmlMadre": 6,
+          "IdCampoProveedor": 3,
+          "NombreCampoXmlMadre": "id",
+          "NombreCampoProveedor": "id",
+          "CampoProveedorEsPadre": false,
+          "IgnoreCDATA": false,
+          "LetraCapital": false,
+          "SinEtiqueta": false,
+          "ValorPorDefecto": "",
+          "ValorFijo": "",
+          "MaxLength": 0,
+          "Concat": "",
+          "Replaces": []
+        },
+        {
+          "_id": {
+            "$oid": "5cec9be0c1b25317c06a45d1"
+          },
+          "IdCampoXmlMadre": 73,
+          "IdCampoProveedor": 23,
+          "NombreCampoXmlMadre": "caracteristicasDeDesarrollo",
+          "NombreCampoProveedor": "url",
+          "CampoProveedorEsPadre": false,
+          "IgnoreCDATA": false,
+          "LetraCapital": false,
+          "SinEtiqueta": false,
+          "ValorPorDefecto": "",
+          "ValorFijo": "",
+          "MaxLength": 0,
+          "Concat": "",
+          "Replaces": []
+        },
+        {
+          "_id": {
+            "$oid": "5cec9be0c1b25317c06a45d1"
+          },
+          "IdCampoXmlMadre": 52,
+          "IdCampoProveedor": 17,
+          "NombreCampoXmlMadre": "datosPublicacion.fechaPublicacion",
+          "NombreCampoProveedor": "title",
+          "CampoProveedorEsPadre": false,
+          "IgnoreCDATA": false,
+          "LetraCapital": false,
+          "SinEtiqueta": false,
+          "ValorPorDefecto": "",
+          "ValorFijo": "",
+          "MaxLength": 0,
+          "Concat": "",
+          "Replaces": []
+        },
+        {
+          "_id": {
+            "$oid": "5cec9be0c1b25317c06a45d1"
+          },
+          "IdCampoXmlMadre": 53,
+          "IdCampoProveedor": 18,
+          "NombreCampoXmlMadre": "datosPublicacion.fechaVencimiento",
+          "NombreCampoProveedor": "content",
+          "CampoProveedorEsPadre": false,
+          "IgnoreCDATA": false,
+          "LetraCapital": false,
+          "SinEtiqueta": false,
+          "ValorPorDefecto": "",
+          "ValorFijo": "",
+          "MaxLength": 0,
+          "Concat": "",
+          "Replaces": []
+        },
+        {
+          "_id": {
+            "$oid": "5cec9be0c1b25317c06a45d1"
+          },
+          "IdCampoXmlMadre": 19,
+          "IdCampoProveedor": 7,
+          "NombreCampoXmlMadre": "ubicacion.direccion",
+          "NombreCampoProveedor": "type",
+          "CampoProveedorEsPadre": false,
+          "IgnoreCDATA": false,
+          "LetraCapital": false,
+          "SinEtiqueta": false,
+          "ValorPorDefecto": "",
+          "ValorFijo": "",
+          "MaxLength": 0,
+          "Concat": "",
+          "Replaces": [
+            {
+              "ReplaceFrom": "1",
+              "ReplaceTo": "For Sale"
+            },
+            {
+              "ReplaceFrom": "2",
+              "ReplaceTo": "For Rent"
+            }
+          ]
+        },
+        {
+          "_id": {
+            "$oid": "5cec9be0c1b25317c06a45d1"
+          },
+          "IdCampoXmlMadre": 58,
+          "IdCampoProveedor": 19,
+          "NombreCampoXmlMadre": "caracteristicasaPrincipales.tipoDePropiedad",
+          "NombreCampoProveedor": "property_type",
+          "CampoProveedorEsPadre": false,
+          "IgnoreCDATA": false,
+          "LetraCapital": false,
+          "SinEtiqueta": false,
+          "ValorPorDefecto": "",
+          "ValorFijo": "",
+          "MaxLength": 0,
+          "Concat": "",
+          "Replaces": []
+        },
+        {
+          "_id": {
+            "$oid": "5cec9be0c1b25317c06a45d1"
+          },
+          "IdCampoXmlMadre": 66,
+          "IdCampoProveedor": 29,
+          "NombreCampoXmlMadre": "caracteristicasaPrincipales.garages",
+          "NombreCampoProveedor": "floor_area",
+          "CampoProveedorEsPadre": false,
+          "IgnoreCDATA": false,
+          "LetraCapital": false,
+          "SinEtiqueta": false,
+          "ValorPorDefecto": "",
+          "ValorFijo": "",
+          "MaxLength": 0,
+          "Concat": "",
+          "Replaces": []
+        },
+        {
+          "_id": {
+            "$oid": "5cec9be0c1b25317c06a45d1"
+          },
+          "IdCampoXmlMadre": 14,
+          "IdCampoProveedor": 5,
+          "NombreCampoXmlMadre": "ubicacion.nombreCiudad",
+          "NombreCampoProveedor": "city",
+          "CampoProveedorEsPadre": false,
+          "IgnoreCDATA": false,
+          "LetraCapital": false,
+          "SinEtiqueta": false,
+          "ValorPorDefecto": "",
+          "ValorFijo": "",
+          "MaxLength": 0,
+          "Concat": "",
+          "Replaces": []
+        },
+        {
+          "_id": {
+            "$oid": "5cec9be0c1b25317c06a45d1"
+          },
+          "IdCampoXmlMadre": 16,
+          "IdCampoProveedor": 6,
+          "NombreCampoXmlMadre": "ubicacion.nombreZonaCiudad",
+          "NombreCampoProveedor": "city_area",
+          "CampoProveedorEsPadre": false,
+          "IgnoreCDATA": false,
+          "LetraCapital": false,
+          "SinEtiqueta": false,
+          "ValorPorDefecto": "",
+          "ValorFijo": "",
+          "MaxLength": 0,
+          "Concat": "",
+          "Replaces": []
+        },
+        {
+          "_id": {
+            "$oid": "5cec9be0c1b25317c06a45d1"
+          },
+          "IdCampoXmlMadre": 12,
+          "IdCampoProveedor": 4,
+          "NombreCampoXmlMadre": "ubicacion.nombreProvincia",
+          "NombreCampoProveedor": "region",
+          "CampoProveedorEsPadre": false,
+          "IgnoreCDATA": false,
+          "LetraCapital": false,
+          "SinEtiqueta": false,
+          "ValorPorDefecto": "",
+          "ValorFijo": "",
+          "MaxLength": 0,
+          "Concat": "",
+          "Replaces": []
+        },
+        {
+          "_id": {
+            "$oid": "5cec9be0c1b25317c06a45d1"
+          },
+          "IdCampoXmlMadre": 61,
+          "IdCampoProveedor": 20,
+          "NombreCampoXmlMadre": "tipoDePropiedad.idTipoDePropiedad",
+          "NombreCampoProveedor": "rooms",
+          "CampoProveedorEsPadre": false,
+          "IgnoreCDATA": false,
+          "LetraCapital": false,
+          "SinEtiqueta": false,
+          "ValorPorDefecto": "",
+          "ValorFijo": "",
+          "MaxLength": 0,
+          "Concat": "",
+          "Replaces": []
+        },
+        {
+          "_id": {
+            "$oid": "5cec9be0c1b25317c06a45d1"
+          },
+          "IdCampoXmlMadre": 63,
+          "IdCampoProveedor": 21,
+          "NombreCampoXmlMadre": "tipoDePropiedad.idSubtipoDePropiedad",
+          "NombreCampoProveedor": "bathrooms",
+          "CampoProveedorEsPadre": false,
+          "IgnoreCDATA": false,
+          "LetraCapital": false,
+          "SinEtiqueta": false,
+          "ValorPorDefecto": "",
+          "ValorFijo": "",
+          "MaxLength": 0,
+          "Concat": "",
+          "Replaces": []
+        },
+        {
+          "_id": {
+            "$oid": "5cec9be0c1b25317c06a45d1"
+          },
+          "IdCampoXmlMadre": 75,
+          "IdCampoProveedor": 30,
+          "NombreCampoXmlMadre": "caracteristicasDeDesarrollo.nombreEtapaDeDesarrollo",
+          "NombreCampoProveedor": "latitude",
+          "CampoProveedorEsPadre": false,
+          "IgnoreCDATA": false,
+          "LetraCapital": false,
+          "SinEtiqueta": false,
+          "ValorPorDefecto": "",
+          "ValorFijo": "",
+          "MaxLength": 0,
+          "Concat": "",
+          "Replaces": []
+        },
+        {
+          "_id": {
+            "$oid": "5cec9be0c1b25317c06a45d1"
+          },
+          "IdCampoXmlMadre": 76,
+          "IdCampoProveedor": 31,
+          "NombreCampoXmlMadre": "caracteristicasDeDesarrollo.fechaEntrega",
+          "NombreCampoProveedor": "longitude",
+          "CampoProveedorEsPadre": false,
+          "IgnoreCDATA": false,
+          "LetraCapital": false,
+          "SinEtiqueta": false,
+          "ValorPorDefecto": "",
+          "ValorFijo": "",
+          "MaxLength": 0,
+          "Concat": "",
+          "Replaces": []
+        },
+        {
+          "_id": {
+            "$oid": "5cec9be0c1b25317c06a45d1"
+          },
+          "IdCampoXmlMadre": 78,
+          "IdCampoProveedor": 32,
+          "NombreCampoXmlMadre": "otrasCaracteristicas",
+          "NombreCampoProveedor": "postcode",
+          "CampoProveedorEsPadre": false,
+          "IgnoreCDATA": false,
+          "LetraCapital": false,
+          "SinEtiqueta": false,
+          "ValorPorDefecto": "",
+          "ValorFijo": "",
+          "MaxLength": 0,
+          "Concat": "",
+          "Replaces": []
+        },
+        {
+          "_id": {
+            "$oid": "5cec9be0c1b25317c06a45d1"
+          },
+          "IdCampoXmlMadre": 25,
+          "IdCampoProveedor": 39,
+          "NombreCampoXmlMadre": "precio.idMoneda",
+          "NombreCampoProveedor": "price",
+          "CampoProveedorEsPadre": false,
+          "IgnoreCDATA": false,
+          "LetraCapital": false,
+          "SinEtiqueta": false,
+          "ValorPorDefecto": "",
+          "ValorFijo": "",
+          "MaxLength": 0,
+          "Concat": "",
+          "Replaces": []
+        },
+        {
+          "_id": {
+            "$oid": "5cec9be0c1b25317c06a45d1"
+          },
+          "IdCampoXmlMadre": 77,
+          "IdCampoProveedor": 26,
+          "NombreCampoXmlMadre": "caracteristicasDeDesarrollo.totalUnidades",
+          "NombreCampoProveedor": "address",
+          "CampoProveedorEsPadre": false,
+          "IgnoreCDATA": false,
+          "LetraCapital": false,
+          "SinEtiqueta": false,
+          "ValorPorDefecto": "",
+          "ValorFijo": "",
+          "MaxLength": 0,
+          "Concat": "",
+          "Replaces": []
+        },
+        {
+          "_id": {
+            "$oid": "5cec9be0c1b25317c06a45d1"
+          },
+          "IdCampoXmlMadre": 0,
+          "IdCampoProveedor": 33,
+          "NombreCampoXmlMadre": "",
+          "NombreCampoProveedor": "pictures",
+          "CampoProveedorEsPadre": true,
+          "IgnoreCDATA": false,
+          "LetraCapital": false,
+          "SinEtiqueta": false,
+          "ValorPorDefecto": "",
+          "ValorFijo": "",
+          "MaxLength": 0,
+          "Concat": "",
+          "Replaces": []
+        },
+        {
+          "_id": {
+            "$oid": "5cec9be0c1b25317c06a45d1"
+          },
+          "IdCampoXmlMadre": 0,
+          "IdCampoProveedor": 34,
+          "NombreCampoXmlMadre": "",
+          "NombreCampoProveedor": "picture",
+          "CampoProveedorEsPadre": true,
+          "IgnoreCDATA": false,
+          "LetraCapital": false,
+          "SinEtiqueta": false,
+          "ValorPorDefecto": "",
+          "ValorFijo": "",
+          "MaxLength": 0,
+          "Concat": "",
+          "Replaces": []
+        },
+        {
+          "_id": {
+            "$oid": "5cec9be0c1b25317c06a45d1"
+          },
+          "IdCampoXmlMadre": 42,
+          "IdCampoProveedor": 37,
+          "NombreCampoXmlMadre": "imagenPrincipal.urlThumbnail",
+          "NombreCampoProveedor": "picture_url",
+          "CampoProveedorEsPadre": false,
+          "IgnoreCDATA": false,
+          "LetraCapital": false,
+          "SinEtiqueta": false,
+          "ValorPorDefecto": "",
+          "ValorFijo": "",
+          "MaxLength": 0,
+          "Concat": "",
+          "Replaces": []
+        },
+        {
+          "_id": {
+            "$oid": "5cec9be0c1b25317c06a45d1"
+          },
+          "IdCampoXmlMadre": 48,
+          "IdCampoProveedor": 36,
+          "NombreCampoXmlMadre": "imagen.urlThumbnail",
+          "NombreCampoProveedor": "date",
+          "CampoProveedorEsPadre": false,
+          "IgnoreCDATA": false,
+          "LetraCapital": false,
+          "SinEtiqueta": false,
+          "ValorPorDefecto": "",
+          "ValorFijo": "",
+          "MaxLength": 0,
+          "Concat": "",
+          "Replaces": []
+        },
+        {
+          "_id": {
+            "$oid": "5cec9be0c1b25317c06a45d1"
+          },
+          "IdCampoXmlMadre": 50,
+          "IdCampoProveedor": 38,
+          "NombreCampoXmlMadre": "datosPublicacion.idTipoPublicacion",
+          "NombreCampoProveedor": "segmentation_text",
+          "CampoProveedorEsPadre": false,
+          "IgnoreCDATA": false,
+          "LetraCapital": false,
+          "SinEtiqueta": false,
+          "ValorPorDefecto": "",
+          "ValorFijo": "",
+          "MaxLength": 0,
+          "Concat": "",
+          "Replaces": []
+        }
+      ]
+    }
+  ]
+}
