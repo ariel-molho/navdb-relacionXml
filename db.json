@@ -63,9 +63,9 @@
           "_id": {
             "$oid": "5cec9be0c1b25317c06a45d1"
           },
-          "IdCampoXmlMadre": 6,
+          "IdCampoXmlMadre": 0,
           "IdCampoProveedor": 3,
-          "NombreCampoXmlMadre": "id",
+          "NombreCampoXmlMadre": "",
           "NombreCampoProveedor": "id",
           "CampoProveedorEsPadre": false,
           "IgnoreCDATA": false,
@@ -99,9 +99,9 @@
           "_id": {
             "$oid": "5cec9be0c1b25317c06a45d1"
           },
-          "IdCampoXmlMadre": 52,
+          "IdCampoXmlMadre": 0,
           "IdCampoProveedor": 17,
-          "NombreCampoXmlMadre": "datosPublicacion.fechaPublicacion",
+          "NombreCampoXmlMadre": "",
           "NombreCampoProveedor": "title",
           "CampoProveedorEsPadre": false,
           "IgnoreCDATA": false,
@@ -135,9 +135,9 @@
           "_id": {
             "$oid": "5cec9be0c1b25317c06a45d1"
           },
-          "IdCampoXmlMadre": 19,
+          "IdCampoXmlMadre": 0,
           "IdCampoProveedor": 7,
-          "NombreCampoXmlMadre": "ubicacion.direccion",
+          "NombreCampoXmlMadre": "",
           "NombreCampoProveedor": "type",
           "CampoProveedorEsPadre": false,
           "IgnoreCDATA": false,
