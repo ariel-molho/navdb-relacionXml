@@ -92,7 +92,7 @@
           "ValorPorDefecto": "",
           "ValorFijo": "",
           "MaxLength": 0,
-          "Concat": "",
+          "Concat": "https://www.wimoveis.com.br/propriedades/-;;;~id;;;.html",
           "Replaces": []
         },
         {
@@ -128,7 +128,7 @@
           "ValorPorDefecto": "",
           "ValorFijo": "",
           "MaxLength": 0,
-          "Concat": "",
+          "Concat": "~urlAviso;;;?utm_source=Mitula&amp;amp;amp;utm_medium=CPC&amp;amp;amp;utm_campaign=SP&amp;amp;amp;ocultarDatos=true",
           "Replaces": []
         },
         {
